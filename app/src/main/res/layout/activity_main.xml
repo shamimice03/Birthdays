@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#fff"
+     android:orientation="vertical">
+
+    
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:hint="Enter Friend's Name"
+        android:textColorHint="@color/colorwhite"
+        android:padding="8dp"
+        android:background="#607D8B"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/bday"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:hint="Enter his/her's Birthday Date"
+        android:textColorHint="@color/colorwhite"
+        android:background="#607D8B"
+        android:padding="8dp"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#03A9F4"
+        android:layout_margin="20dp"
+        android:text="save"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/savebday"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        android:layout_margin="20dp"
+        android:text="SEE Others Birthday's"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>
