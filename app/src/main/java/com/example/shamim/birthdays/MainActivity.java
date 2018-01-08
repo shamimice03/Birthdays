@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         b = (Button) findViewById(R.id.save);
         b1 = (Button) findViewById(R.id.savebday);
 
+        ///git
+
         final MyDBFunctions mf = new MyDBFunctions(getApplicationContext());
 
         b.setOnClickListener(new View.OnClickListener() {
